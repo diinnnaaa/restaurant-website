@@ -1,0 +1,66 @@
+.nav_list{
+    list-style-type: none;
+   display: inline;
+  
+}
+.nav_list a{
+    text-decoration: none;
+}
+.nav_list li{
+    display: inline;
+   padding-right: 10px;
+}
+nav {
+    display: inline;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+header p {
+    display: inline;
+    position: relative;
+}
+.banner, .aboutas{
+    display: flex;
+    flex-direction: column;
+}
+.banner button{
+    background-color: rgb(222, 169, 13);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.aboutas{
+    flex-direction: column-reverse;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+}
+.offer-card{
+    width: 100%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+    body {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+header{
+right: 0px;
+    }
+
+nav {
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
+.banner, .aboutas, .offers{
+  
+    flex-direction: row;
+}
+.offer-card{
+    width: 30px;
+}
+
+}
